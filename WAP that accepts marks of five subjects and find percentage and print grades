@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+ int marks1,marks2,marks3,marks4,marks5,sum,per;
+  printf("enter marks1");
+  scanf("%d",&marks1);
+
+  printf("enter marks2");
+  scanf("%d",&marks2);
+
+  printf("enter marks3");
+  scanf("%d",&marks3);
+
+  printf("enter marks4");
+  scanf("%d",&marks4);
+
+  printf("enter marks5");
+  scanf("%d",&marks5);
+
+  sum= marks1+marks2+marks3+marks4+marks5;
+  per=sum/5;
+
+  printf("%d",per);
+  
+  if(per>90){
+    
+    printf("grade A");
+  }
+  else if (90>per>80){
+    
+    printf("grade B");
+  }
+  else if (80>per>60){
+    
+    printf("grade C");
+  }
+  else if (per<60){
+
+    printf(" grade D");
+  }
+
+  return 0;
+}
