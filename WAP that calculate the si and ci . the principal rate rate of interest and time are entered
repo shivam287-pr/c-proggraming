@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int si,ci,p,r,t,a;
+    printf("enter principal,rate,time");
+    scanf("%d%d%d",&p,&r,&t);
+    si=p*r*t/100;
+    a=p*pow((1+r/100),t);
+    ci=a-p;
+    printf("si=%d",si);
+    printf("ci=%d",ci);
+    return 0;
+}
