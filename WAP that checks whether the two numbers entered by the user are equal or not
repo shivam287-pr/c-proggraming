@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    float a,b;
+    printf("enter two numbers");
+    scanf("%f%f",&a,&b);
+    if (a==b)
+    printf("no. is equal");
+    else
+    printf("no. is not equal");
+    return 0;
+}
