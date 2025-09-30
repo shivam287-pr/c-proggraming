@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int maths,physics,chemistry,english,hindi,sum,avg;
+    printf("enter any 5 sub marks");
+    scanf("%d%d%d%d%d",&maths,&physics,&chemistry,&english,&hindi);
+    sum=maths+physics+chemistry+english+hindi;
+    avg=sum/5;
+    printf("sum=%d",sum);
+    printf("avg=%d",avg);
+    return 0;
+}
