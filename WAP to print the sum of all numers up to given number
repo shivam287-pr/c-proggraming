@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main (){
+    printf("Enter number till which you want sum :");
+    int n;
+    scanf("%d",&n);
+    int p =0;
+    for (int i = 1; i <=n; i++)
+    {
+        p=p+i;
+    }
+    printf("%d",p);
+
+    return 0 ;
+}
